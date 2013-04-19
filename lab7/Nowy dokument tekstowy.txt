@@ -1,0 +1,12 @@
+Diagram klas jest to statystyczny diagram strukturalny, przedstawiaj¹cy strukturê systemu w modelach obiektowych przez ilustracjê struktury  klas i zale¿noœæ miêdzy nimi.
+zale¿noœæ - najs³abszy zwi¹zek znaczeniowy miedzy klasami, gdy jedna z nich u¿ywa innych klas.
+Agregacja
+reprezentuje zwi¹zek typu ca³oœæ-czêœæ. Wystêpuje tutaj relacja posiadania — co oznacza, ¿e elementy czêœciowe mog¹ nale¿eæ do wiêkszej ca³oœci, jednak równie¿ mog¹ istnieæ bez niej. Na diagramie agregacjê oznacza siê za pomoc¹ linii zakoñczonej pustym rombem.
+(np. komputer zxzawiera proceror, student posiada notatki, auto posiada silnik)) 
+Asocjacja
+ wskazuje na trwa³e powi¹zanie pomiêdzy obiektami danych klas. Na diagramie asocjacjê oznacza siê za pomoc¹ linii zakoñczonej strza³k¹ (skierowan¹ od klasy Ÿród³owej do docelowej). Nazwê cechy wraz z krotnoœci¹ umieszcza siê w punkcie docelowym asocjacji.
+(np. nauczyciel uczy dzieci, firma zatrudnia pracowników, pisarz pisze ksi¹¿ki)
+Generalizacja
+zwi¹zek opisuj¹cy dziedziczenie po klasach. Na diagramie generalizacjê oznacza siê za pomoc¹ niewype³nionego trójk¹ta symbolizuj¹cego strza³kê (skierowan¹ od klasy pochodnej do klasy bazowej).
+Kompozycja
+Kompozycja, zwana równie¿ z³o¿eniem, jest zwi¹zkiem typu ca³oœæ-czêœæ. W relacji kompozycji, czêœci nale¿¹ tylko do jednej ca³oœci, a ich okres ¿ycia jest wspólny — razem z ca³oœci¹ niszczone s¹ równie¿ czêœci. Na diagramie, kompozycjê oznacza siê za pomoc¹ linii zakoñczonej wype³nionym rombem.
