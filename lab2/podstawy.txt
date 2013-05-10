@@ -1,6 +1,7 @@
-System kontroli System kontroli wersji (ang. version/revision control system) jest to oprogramowanie s³u¿¹ce do 
-œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób 
-w ró¿nych momentach.
+
+
+
+                  System kontroli System kontroli wersji (ang. version/revision control system) jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
 
 Workflow to system obiegu dokumentów wspieraj¹cy realizacjê procesów biznesowych. Narzêdzie pomaga w koordynacji 
 prac prowadzonych przez wielu uczestników jednoczeœnie. System posiada czytelny i prosty edytor procesów, 
@@ -13,24 +14,26 @@ dalej. System automatycznie podejmie decyzjê do kogo nale¿y j¹ skierowaæ w nastê
 automatycznie do³¹czyæ czêœæ informacji wnioskuj¹c z pracy wykonanej przez uczestników.
 
 Systemy kontroli wersji dziel¹ siê na:
-scentralizowane, oparte na architekturze klient-serwer (np. CVS, Subversion)
-rozproszone, oparte na architekturze P2P (np. BitKeeper, Code Co-op, svk, Git).
+scentralizowane, oparte na architekturze klient-serwer 
+(np. CVS, Subversion)
+rozproszone, oparte na architekturze P2P 
+(np. BitKeeper, Code Co-op, svk, Git).
 
 Polecenia:
--git init // tworzy repozytorium w katalogu w ktorym sie znajdujemy
--git clone // klonowanie istniej¹cego ju¿ reprezytorium
--git add  // dodaje wszystkie pliki w katalogu do repozytorium
--git status //pokaze pliki ktore sie zmienily, ktore nie dodalismy jeszcze do repozytorium
--git diff // exportowanie danej ga³êzi
--git commit // wykonujemy zapis aktualnej wersji projektu
--git reset //cofa do wybranego commita
--git rm // Usuwanie plików z repozytorium w sposób rekursywny. Plik kasowany jest rowniez z katalogu projektu
--git mv // przeniesienie lub zmiana nazwy pliku katalogu
--git branch // wyœwietla wszystkie galêzie rozwojowe
--git checkout // prze³¹czanie na inna ga³¹Ÿ
--git merge // sposoby integrowania zmian z jednej ga³êzi do drugiej: scalanie
--git log // pokaze ostatnio wykonane commity z ga³êzi na której aktualnie pracujemy
--git stash // chwilowe pozbywanie siê pliku, schowanie go do schowka
--git pull // pobiera wszystkie dane i odnoœniki ze zdalnego repozytorium i automatycznie scala zmiany z ga³êzi 
+* git init - tworzy repozytorium w katalogu w ktorym sie znajdujemy
+* git clone - klonowanie istniej¹cego ju¿ reprezytorium
+* git add  - dodaje wszystkie pliki w katalogu do repozytorium
+* git status - pokaze pliki ktore sie zmienily, ktore nie dodalismy jeszcze do repozytorium
+* git diff - exportowanie danej ga³êzi
+* git commit - wykonujemy zapis aktualnej wersji projektu
+* git reset -cofa do wybranego commita
+* git rm - Usuwanie plików z repozytorium w sposób rekursywny. Plik kasowany jest rowniez z katalogu projektu
+* git mv - przeniesienie lub zmiana nazwy pliku katalogu
+* git branch - wyœwietla wszystkie galêzie rozwojowe
+* git checkout - prze³¹czanie na inna ga³¹Ÿ
+* git merge - sposoby integrowania zmian z jednej ga³êzi do drugiej: scalanie
+* git log -pokaze ostatnio wykonane commity z ga³êzi na której aktualnie pracujemy
+* git stash - chwilowe pozbywanie siê pliku, schowanie go do schowka
+* git pull - pobiera wszystkie dane i odnoœniki ze zdalnego repozytorium i automatycznie scala zmiany z ga³êzi 
 zdalnej do odpowiedniej ga³êzi zdalnej.
--got push // wypcha ga³¹Ÿ g³ówn¹ master na oryginalny serwer Ÿród³owy
+* got push - wypcha ga³¹Ÿ g³ówn¹ master na oryginalny serwer Ÿród³owy
