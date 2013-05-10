@@ -1,0 +1,24 @@
+Polecenia umo¿liwaj¹ce : 
+
+* Wyœwietlenie informacji o poleceniach (pomocy ) - HELP 
+* Wyœwietlanie zawartoœci bie¿¹cego katalogu - ls
+* Tworzenie katalogu  - MKDIR <nazwa> np. ( MKDIR <katalog> )
+* Utworzenia pliku o nazwie 'plik.txt' - touch PLIK.TXT
+* Wyœwietlenie zawartoœci pliku 'plik.txt' - TYPE
+* Przejœcie do katalogu nadrzêdnego - CD\
+* Przejœcie do katalogu 'lab4' - CD;\lab4 
+* Zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt' - RENAME
+
+
+
+Komendy do Gita : 
+
+* Podgl¹du wszystkich zatwierdzonych zmian - GIT LOG 
+* Podgl¹du wprowadzonych w repozytorium zmian - GIT diff 
+* Podgl¹du wprowadzonych zmian plików które s¹ juz w przechowalni - GIT diff
+* Podgl¹du zmian wprowadzonych w danym pliku - GIT STATUS
+* Usuwania plików z repozytorium - GIT RM
+* Dodawanie plików do przechowalni - GIT ADD
+* Usuwanie plików z przechowalni - GIT RESET
+* Przenoszenia plików znajduj¹cych siê w przechowalni do innej ga³êzi - GIT Stash 
+* Usuwania ga³êzi -  GIT BRANCH
